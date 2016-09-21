@@ -1,0 +1,19 @@
+1) First, enter the market required, there is only one in this demo (GBCE).
+
+2) The next set of options work as follows:
+    
+    2a) Select Market:  Change the current market selected. This is of no use really, as there is only one market in the demo.
+    
+    2b) Calculation:    Perform one of the calculations defined in the requirement.
+        2b-1)   Calculate ASI
+                All Share Index - requires neither Stock Symbol or Price. Requires trades to be loaded.
+        2b-2)   Calculate WSP
+                Weighted Stock Price - requires Stock Symbol only. Requires trades to be loaded.
+        2b-3)   Calculate Dividend Yield
+                Requires Stock Symbol and Price
+        2b-4)   Calculate PE Ratio 
+                Requires Stock Symbol and Price
+
+    2c)  Load Trades:   Loads the hardcoded trades, found in SimpleStockMarket.java : recordTrades()
+    
+    
